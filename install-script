@@ -16,10 +16,10 @@ CPU_FLAGS="aes avx fma3 mmx mmxext popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3"
 USE_FLAGS="X acl bindist mmx sse sse2 -suid -kde -qt4 sna dri pulseaudio alsa dbus"
 MAKE_OPTIONS="-j9"
 
-BIOS_PARTITION=/dev/sda1
-BOOT_PARTITION=/dev/sda2
-SWAP_PARTITION=/dev/sda3
-ROOT_PARTITION=/dev/sda4
+BIOS_PARTITION=/dev/nvme0n1p1
+BOOT_PARTITION=/dev/nvme0n1p2
+SWAP_PARTITION=/dev/nvme0n1p3
+ROOT_PARTITION=/dev/nvme0n1p4
 
 ROOT_FS_TYPE=btrfs
 
