@@ -13,10 +13,10 @@ An install script to automate setting up a base gentoo system.
 By default the script uses the default partition table in the gentoo handbook
 
 Filesystem<br />
-`/dev/nvme0n1p1 ->` BIOS boot partition<br />
-`/dev/nvme0n1p2 ->` Boot partition<br />
-`/dev/nvme0n1p3 ->` Swap partition<br />
-`/dev/nvme0n1p4 ->` Root partition<br />
+`/dev/(your disk name)1 ->` BIOS boot partition<br />
+`/dev/(your disk name)2 ->` Boot partition<br />
+`/dev/(your disk name)3 ->` Swap partition<br />
+`/dev/(your disk name)4 ->` Root partition<br />
  
 This script will need some modifications especially the kernel config file. These modifications depend on your system. Also this script uses openrc as its primary init system. Also the script at this point in time doesn't automatically download a stage3 tarball you will have to do that your self and place it in the stage3 folder.
 
