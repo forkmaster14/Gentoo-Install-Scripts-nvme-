@@ -18,7 +18,7 @@ Filesystem<br />
 `/dev/(your disk name)3 ->` Swap partition<br />
 `/dev/(your disk name)4 ->` Root partition<br />
  
-This script will need some modifications especially the kernel config file. These modifications depend on your system. Also this script uses openrc as its primary init system. Also the script at this point in time doesn't automatically download a stage3 tarball you will have to do that your self and place it in the stage3 folder.
+This script will need some modifications especially the kernel config file. These modifications depend on your system. Also this script uses openrc as its primary init system. Also the script at this point in time doesn't automatically download a stage3 tarball you will have to do that your self and place it in the stage3 folder, however, I have provided a script for that.
 
 Another thing to note is that the script by default builds for UEFI systems. This can easily be changed
 
