@@ -1,6 +1,6 @@
 # Gentoo-Install-Scripts
 An install script to automate setting up a base gentoo system.
-
+Original one is not maintained any more
 # Usage
 
 1. Clone this repository into the installation media of your choice.
